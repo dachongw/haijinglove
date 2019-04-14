@@ -1,6 +1,10 @@
 <template>
   <div class="home">
-    海静的博客222
+    <Layout>
+      <Header>Header</Header>
+      <Content>Content</Content>
+      <Footer>Footer</Footer>
+    </Layout>
   </div>
 </template>
 
@@ -13,3 +17,10 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+  .home {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: pink;
+  }
+</style>
