@@ -4,11 +4,11 @@ import router from './router'
 import store from './store'
 import './registerServiceWorker'
 import './assets/scss/main.scss'
-// import iView from 'iview'
-// import 'iview/dist/styles/iview.css'    // 使用 CSS
+import iView from 'iview' // 引入iview依赖
+import 'iview/dist/styles/iview.css' // 引入iview css样式
 
-// Vue.use(iView)
 Vue.config.productionTip = false
+Vue.use(iView) //使用iview组件
 
 new Vue({
   router,

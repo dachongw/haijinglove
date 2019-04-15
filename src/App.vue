@@ -13,7 +13,7 @@
   color: #2c3e50;
   height: 100%;
   min-width: 1200px;
-  background-color: black;
+  background-color: #1c2438;
 }
 html, body {
   height: 100%;
